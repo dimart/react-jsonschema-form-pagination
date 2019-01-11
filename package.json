@@ -17,8 +17,7 @@
     "publish-to-npm": "npm run dist &&  npm publish && npm version patch",
     "start": "webpack-dev-server",
     "tdd": "jest --watchAll",
-    "test": "jest",
-    "install": "npm run dist"
+    "test": "jest"
   },
   "jest": {
     "verbose": true,
