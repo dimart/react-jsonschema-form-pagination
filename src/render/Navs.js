@@ -3,8 +3,8 @@ import { GENERIC_NAV } from "../utils";
 
 function Nav({ handleClick, isActive, name, icon }) {
   return (
-    <li onClick={handleClick} className={isActive ? "active" : null}>
-      <a>
+    <li onClick={handleClick} className="nav-item">
+      <a className={isActive ? "nav-link active" : "nav-link"} href="#">
         {icon && <span className={icon} aria-hidden="true" />}
         &nbsp;{name}
       </a>

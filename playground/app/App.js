@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import applyNav from "../../src";
-import Form from "react-jsonschema-form";
+import Form from "react-jsonschema-form-bs4";
 import conf from "./conf";
 import CustomNav from "./CustomNavs";
 
